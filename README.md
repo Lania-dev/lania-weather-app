@@ -21,7 +21,7 @@ A Vue.js weather application that displays real-time weather information using t
 
 ## 🚀 Live Demo
 
-👉 [https://lania-weather-app.vercel.app](https://lania-weather-app.vercel.app)
+Deployed on Vercel (link will be added after deployment)
 
 ## 🧪 Test Cities
 
@@ -29,12 +29,15 @@ Try searching for: **Bujumbura**, **Tokyo**, **Nairobi**, **Shanghai**, **Paris*
 
 ## 📦 Setup
 
-```bash
-# Install dependencies
 npm install
-
-# Run in development
 npm run dev
-
-# Build for production
 npm run build
+
+## 👤 Author
+
+**Ishimwe Lania**
+- Student ID: BIU-BST-12-044-2024
+
+## 📄 License
+
+This project is for educational purposes.
