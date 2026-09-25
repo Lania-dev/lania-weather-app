@@ -1,44 +1,40 @@
-# arnold-projet
+# 🌤️ Lania Weather App
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue.js weather application that displays real-time weather information using the Open-Meteo API.
 
-## Recommended IDE Setup
+## 📋 Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 🔍 Search weather by city name
+- 🌡️ Display temperature, humidity, wind speed, and weather conditions
+- 🎨 Dynamic weather icons based on conditions
+- 🕘 Recent search history (last 3 cities, saved in localStorage)
+- ⏳ Loading state while fetching data
+- ❌ Error handling (city not found, network errors)
+- 📱 Responsive and modern UI
 
-## Recommended Browser Setup
+## 🛠️ Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- **Vue.js 3** (Options API)
+- **Vite** (build tool)
+- **Open-Meteo API** (geocoding + weather data)
+- **CSS3** (glassmorphism design)
 
-## Customize configuration
+## 🚀 Live Demo
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+👉 [https://lania-weather-app.vercel.app](https://lania-weather-app.vercel.app)
 
-## Project Setup
+## 🧪 Test Cities
 
-```sh
+Try searching for: **Bujumbura**, **Tokyo**, **Nairobi**, **Shanghai**, **Paris**
+
+## 📦 Setup
+
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Run in development
 npm run dev
-```
 
-### Compile and Minify for Production
-
-```sh
+# Build for production
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
